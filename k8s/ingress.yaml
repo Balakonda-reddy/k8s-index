@@ -8,7 +8,7 @@ spec:
  - host: k8s-index.devopscoursewithbalakonda.xyz
    http:
      paths:
-     - path: /contact-svc.contact.svc.cluster.local
+     - path: 
        backend:
          serviceName: index-svc
          servicePort: 80
